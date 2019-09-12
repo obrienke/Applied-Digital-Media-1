@@ -22,3 +22,5 @@ let result = Number(num1) + Number(num2);
 document.write("<h3>");
 document.write(num1+" + "+num2+" = "+result);
 document.write("</h3>");
+
+alert("Line 1 \n Line 2");
