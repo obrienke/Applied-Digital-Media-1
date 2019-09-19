@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <title>Greetings</title>
+    <script>
+
+      var date = new Date();
+	  var hour = date.getHours();
+	  var greeting;
+	  
+	  console.log(hour);//added in for debug purposes.
+	  
+	  if(hour < 12)
+	    greeting = "Good Morning";
+	  if(hour >= 12)
+        greeting = "Good Afternoon";
+      if(hour >= 18)
+        greeting = "Good Evening";
+      if (hour >= 21)
+        greeting = "Good Night";
+	  
+      document.writeln( "<h1>Hello and " + greeting + "</h1>" );
+
+    </script>
+  </head>
+  <body>
+    <!--Result will appear here-->
+  </body>
+</html>
+
