@@ -1,3 +1,4 @@
+
 // create array
 // 1. array literal
 
