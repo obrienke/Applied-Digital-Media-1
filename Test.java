@@ -11,5 +11,6 @@ public class Test{
             j = 1;
             i++;
         }
+        System.out.println("* ");
     }
 }
