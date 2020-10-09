@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <body>
+	  <title>Date Object</title>
+	  <script>
+	    var date = new Date();
+	    document.writeln("<p>"+date+"</p>");
+		document.writeln("<p>"+date.getDay()+"</p>");
+		document.writeln("<p>"+new Date().getMonth()+"</p>");
+		document.writeln("<p>"+new Date().getFullYear()+"</p>");
+		document.writeln("<p>"+new Date().getHours()+"</p>");
+		document.writeln("<p>"+new Date().getMinutes()+"</p>");
+		document.writeln("<p>"+new Date().getSeconds()+"</p>");
+		document.writeln("<p>"+new Date().getTime()+"</p>");
+		
+		var month;
+		var day;
+		
+		if((new Date().getMonth()) == 8){
+		  month = "September";
+		  document.writeln("September");
+		}else{
+		  month = "Not september";
+		  document.writeln("Not september");
+		}
+
+		if((date.getDay()) == 2){
+		  day = "Tuesday";
+		  document.writeln(day);
+		}else{
+		  if((date.getDay()) == 5){
+		    day = "Friday";
+		    document.writeln(day);
+		  }else{
+		    day = "Not sure";
+		    document.write(day);
+		  }	
+		}	
+        
+		document.write("<p>It is a "+day+" in "+month+" of all times!!</p>");
+		
+        var x = 10;
+        var y = 5;
+		
+        document.write("<p>x + y = "+(x+y)+". </p><p> x - y = "+(x-y)+".</p>");		
+		
+		
+	  </script>
+	</body>
+  </head>
+  <body>
+
+
+  </body>
+</html>
