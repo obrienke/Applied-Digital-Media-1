@@ -1,8 +1,8 @@
 /*Week 4 Lecture Code
 
 Chapter references in code below can be found at:
-https://github.com/Sharique-Hasan/SaylaniBatch2-JavaScript/blob/master/A%20Smarter%20Way%20to%20Learn%20JavaScript.pdf
 
+https://learnonline.gmit.ie/pluginfile.php/164313/mod_resource/content/3/A%20Smarter%20Way%20to%20Learn%20JavaScript.pdf
 
  This is a multiline comment
 */
