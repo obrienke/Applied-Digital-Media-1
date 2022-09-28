@@ -3,8 +3,9 @@ let y = prompt("Enter another number");
 
 let result = Number(x) + Number(y); // Number function converts value to a number value
 
-// Alternatively, you could use any of the following approaches to convert values to number values
-/*result = parseInt(x) + parseInt(y);
+/* 
+Alternatively, you could use any of the following approaches to convert values to number values:
+result = parseInt(x) + parseInt(y);
 result = (x * 1) + (y * 1);
 result = +x + +y;
 */
